@@ -184,7 +184,11 @@ form label, form legend {
     font-style: italic;
 }
 
-.imagembeneficios {
+.conteudo-beneficios {
+    width: 640px;
+    margin: 0 auto;
+}
+.imagem-beneficios {
     width: 60%;
 }
 
