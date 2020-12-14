@@ -101,8 +101,7 @@ footer {
 }
 
 main {
-    width: 1080px;
-    margin: 0 auto;
+
 }
 
 form {
@@ -172,6 +171,13 @@ form label, form legend {
     clear: left;
 }
 
+.principal {
+    padding: 3em 0;
+    background: #fefefe;
+    width: 1080px;
+    margin: 0 auto;
+}
+
 .principal p {
     margin: 0 0 1em;
 }
@@ -192,10 +198,17 @@ form label, form legend {
 
 .beneficios {
     padding: 3em 0;
+    background: #999999;
 }
 
 .mapa {
     padding: 3em 0;
+    background: linear-gradient(#fefefe,#999999);
+}
+
+.mapa-conteudo {
+    width: 1080px;
+    margin: 0 auto;
 }
 
 .mapa p {
@@ -221,6 +234,10 @@ form label, form legend {
 .itens:first-child {
     font-weight: bold;
 }
+
+    .itens:before {
+        content: "\2726" ;
+    }
 
 .imagem-beneficios {
     width: 60%;
